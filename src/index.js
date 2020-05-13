@@ -5,7 +5,7 @@ import SeasonDisplay from './SeasonDisplay';
 const App = () => {
     window.navigator.geolocation.getCurrentPosition(
         (position) => console.log(position),
-        err => console.log(err)
+        err => console.log(err.message)
     );
     return (
         <div>
