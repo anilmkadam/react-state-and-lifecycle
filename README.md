@@ -28,6 +28,8 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `Third party Packages and Librart`
-- Semantic UI
+- Semantic UI <br />
+> Semantic UI is a modern front-end development framework,
 
 - Geo-Location API
+> The Geolocation API allows the user to provide their location to web applications if they so desire.
