@@ -33,3 +33,17 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 - Geo-Location API
 > The Geolocation API allows the user to provide their location to web applications if they so desire.
+
+### `Prettier Setting`
+```
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // Set the default
+    "editor.formatOnSave": false,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true
+    }
+```
