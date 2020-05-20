@@ -36,6 +36,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 - react-loader-spinner 
 > ```react-spinner-loader``` provides simple React SVG spinner component which can be implemented for async await operation before data loads to the view.
+> https://www.npmjs.com/package/react-loader-spinner
 
 ### `Prettier Setting`
 ```
