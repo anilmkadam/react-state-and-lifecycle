@@ -23,7 +23,7 @@ class App extends React.Component {
     if (this.state.errMessage && !this.state.lat)
       return <div>Error: {this.state.errMessage}</div>;
     if (!this.state.errMessage && this.state.lat)
-      return <div>Latitude: {this.state.lat}</div>;
+      return <SeasonDisplay lat={this.state.lat} />;
     return (
       <div>
         <Loader type='Rings' color='#00BFFF' height={100} width={100} />
