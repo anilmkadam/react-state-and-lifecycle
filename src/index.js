@@ -8,15 +8,13 @@ class App extends React.Component {
     super(props);
 
     this.state = { lat: null, errMessage: "" };
+  }
 
+  componentDidMount() {
     window.navigator.geolocation.getCurrentPosition(
       (position) => this.setState({ lat: position.coords.latitude }),
       (err) => this.setState({ errMessage: err.message })
     );
-  }
-
-  componentDidMount() {
-    console.log("component was rendered to the screen...");
   }
   componentDidUpdate() {
     console.log("component was just updated - it rerendered...");
@@ -29,6 +27,7 @@ class App extends React.Component {
     return (
       <div>
         <Loader type='Rings' color='#00BFFF' height={100} width={100} />
+        Loading....
       </div>
     );
   }
