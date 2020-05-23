@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import SeasonDisplay from "./SeasonDisplay";
 import Loader from "react-loader-spinner";
+import Spinner from "./Spinner";
 
 class App extends React.Component {
   constructor(props) {
@@ -26,8 +27,7 @@ class App extends React.Component {
       return <SeasonDisplay lat={this.state.lat} />;
     return (
       <div>
-        <Loader type='Rings' color='#00BFFF' height={100} width={100} />
-        Loading....
+        <Spinner />
       </div>
     );
   }
