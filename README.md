@@ -34,10 +34,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - Geo-Location API
 > The Geolocation API allows the user to provide their location to web applications if they so desire.
 
-- react-loader-spinner 
-> ```react-spinner-loader``` provides simple React SVG spinner component which can be implemented for async await operation before data loads to the view.
-> https://www.npmjs.com/package/react-loader-spinner
-
 ### `Prettier Setting`
 ```
 "editor.defaultFormatter": "esbenp.prettier-vscode",
