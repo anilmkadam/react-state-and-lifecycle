@@ -27,7 +27,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `Third party Packages and Librart`
+### `Third party Packages and Library`
 - Semantic UI <br />
 > Semantic UI is a modern front-end development framework,
 
